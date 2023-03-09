@@ -1,0 +1,27 @@
+* {
+  font-family: "Alata";
+  font-family: "Josefin Sans";
+}
+
+header {
+  background-color: blueviolet;
+  width: 100%;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  background-image: url("assets/images/mobile/image-hero.jpg");
+  background-position: cover;
+}
+
+h1 {
+  font-family: "Tilt Neon";
+  font-size: 15px;
+  color: white;
+}
+
+/*
+.menuBurger {
+    height: 1em;
+    width: 1em;
+
+}*//*# sourceMappingURL=styles.css.map */
