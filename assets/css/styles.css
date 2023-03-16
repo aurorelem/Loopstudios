@@ -1,27 +1,310 @@
 * {
-  font-family: "Alata";
-  font-family: "Josefin Sans";
+  margin: 0;
+  padding: 0;
 }
 
 header {
-  background-color: blueviolet;
   width: 100%;
-  height: 50px;
+  height: auto;
   display: flex;
   flex-direction: column;
-  background-image: url("assets/images/mobile/image-hero.jpg");
-  background-position: cover;
+  background-image: url("../images/mobile/image-hero.jpg");
+  background-size: cover;
 }
 
 h1 {
+  font-weight: 500;
   font-family: "Tilt Neon";
-  font-size: 15px;
+  font-size: 1.5625rem;
+  color: white;
+  position: absolute;
+  top: 2.5rem;
+  left: 1.25rem;
+}
+
+.menuBurger {
+  height: 2em;
+  width: 2em;
+  position: absolute;
+  top: 2.5rem;
+  right: 1.25rem;
   color: white;
 }
 
-/*
-.menuBurger {
-    height: 1em;
-    width: 1em;
+h2 {
+  font-weight: 400;
+  font-family: "Josefin Sans";
+  font-size: 2.3125rem;
+  text-transform: uppercase;
+  height: auto;
+  color: white;
+  border: solid 0.125rem;
+  padding: 1.25rem;
+  margin: 1.25rem;
+}
 
-}*//*# sourceMappingURL=styles.css.map */
+.div_header {
+  height: auto;
+  width: 90%;
+  margin-top: 12.5rem;
+  margin-bottom: 12.5rem;
+  padding: 1.25rem;
+}
+
+#about {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.about_image {
+  width: 90%;
+  height: auto;
+  margin-top: 6.25rem;
+  margin-left: 1.25rem;
+}
+
+h3 {
+  font-family: "Josefin Sans";
+  font-size: 1.875rem;
+  text-transform: uppercase;
+  margin-top: 2.5rem;
+  margin-left: 3.125rem;
+  margin-bottom: 1.25rem;
+  padding: 0.0625rem;
+  font-weight: 500;
+}
+
+.about_paragraph {
+  width: 90%;
+  height: auto;
+}
+
+p {
+  font-family: "Alata";
+  color: gray;
+  margin-left: 1.25rem;
+  text-align: center;
+}
+
+#products {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.container_deep_eart {
+  position: relative;
+  color: white;
+}
+
+.product_deep_eart {
+  width: 90%;
+  height: auto;
+  margin-top: 1.875rem;
+  margin-left: 1.25rem;
+}
+
+.text_deep_eart {
+  position: absolute;
+  font-size: 1.5625rem;
+  font-family: "Josefin Sans";
+  color: white;
+  bottom: 1rem;
+  left: 2.5rem;
+  text-transform: uppercase;
+}
+
+.container_night_arcade {
+  position: relative;
+  color: white;
+}
+
+.product_night_arcade {
+  width: 90%;
+  height: auto;
+  margin-top: 1.875rem;
+  margin-left: 1.25rem;
+}
+
+.text_night_arcade {
+  position: absolute;
+  font-size: 1.5625rem;
+  font-family: "Josefin Sans";
+  color: white;
+  bottom: 1rem;
+  left: 2.5rem;
+  text-transform: uppercase;
+}
+
+.container_soccer_team {
+  position: relative;
+  color: white;
+}
+
+.product_soccer_team {
+  width: 90%;
+  height: auto;
+  margin-top: 1.875rem;
+  margin-left: 1.25rem;
+}
+
+.text_soccer_team {
+  position: absolute;
+  font-size: 1.5625rem;
+  font-family: "Josefin Sans";
+  color: white;
+  bottom: 1rem;
+  left: 2.5rem;
+  text-transform: uppercase;
+}
+
+.container_the_grid {
+  position: relative;
+  color: white;
+}
+
+.product_the_grid {
+  width: 90%;
+  height: auto;
+  margin-top: 1.875rem;
+  margin-left: 1.25rem;
+}
+
+.text_the_grid {
+  position: absolute;
+  font-size: 1.5625rem;
+  font-family: "Josefin Sans";
+  color: white;
+  bottom: 1rem;
+  left: 2.5rem;
+  text-transform: uppercase;
+}
+
+.container_from_up {
+  position: relative;
+  color: white;
+}
+
+.product_from_up {
+  width: 90%;
+  height: auto;
+  margin-top: 1.875rem;
+  margin-left: 1.25rem;
+}
+
+.text_from_up {
+  position: absolute;
+  font-size: 1.5625rem;
+  font-family: "Josefin Sans";
+  color: white;
+  bottom: 1rem;
+  left: 2.5rem;
+  text-transform: uppercase;
+}
+
+.container_pocket_borealis {
+  position: relative;
+  color: white;
+}
+
+.product_pocket_borealis {
+  width: 90%;
+  height: auto;
+  margin-top: 1.875rem;
+  margin-left: 1.25rem;
+}
+
+.text_pocket_borealis {
+  position: absolute;
+  font-size: 1.5625rem;
+  font-family: "Josefin Sans";
+  color: white;
+  bottom: 1rem;
+  left: 2.5rem;
+  text-transform: uppercase;
+}
+
+.container_the_cursiosity {
+  position: relative;
+  color: white;
+}
+
+.product_the_cursiosity {
+  width: 90%;
+  height: auto;
+  margin-top: 1.875rem;
+  margin-left: 1.25rem;
+}
+
+.text_the_cursiosity {
+  position: absolute;
+  font-size: 25px;
+  font-family: "Josefin Sans";
+  color: white;
+  bottom: 1rem;
+  left: 2.5rem;
+  text-transform: uppercase;
+}
+
+.container_make_fisheye {
+  position: relative;
+  color: white;
+}
+
+.product_make_fisheye {
+  width: 90%;
+  height: auto;
+  margin-top: 1.875rem;
+  margin-left: 1.25rem;
+}
+
+.text_make_fisheye {
+  position: absolute;
+  font-size: 1.5625rem;
+  font-family: "Josefin Sans";
+  color: white;
+  bottom: 1rem;
+  left: 2.5rem;
+  text-transform: uppercase;
+}
+
+.product_button {
+  font-family: "Alata";
+  font-size: 0.625rem;
+  color: #050505;
+  background-color: #ffffff;
+  padding: 0.625rem 1.875rem;
+  margin: 2rem auto;
+  border: solid #0f0f0f 0.125rem;
+  border-radius: 0.0625rem;
+  transition: 795ms;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  width: 6.25rem;
+  height: 1.25rem;
+}
+
+.product_button:hover {
+  transition: 795ms;
+  padding: 0.625rem 1.375rem;
+  transform: translateY(0px);
+  background-color: #fff;
+  color: #0f0f0f;
+  border: solid 0.125rem #0f0f0f;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: #0f0f0f;
+  display: flex;
+  flex-direction: column;
+}/*# sourceMappingURL=styles.css.map */

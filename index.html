@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">  <!--Faire attention bon lien fichier relatif!-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
@@ -16,32 +16,62 @@
         <!-- <img src="logo" alt="logo"> pas su télécharger le logo -->
         <h1>loopstudios</h1>
         <svg xmlns="http://www.w3.org/2000/svg" class="menuBurger" viewBox="0 0 512 512"><title>Menu</title><path fill="none" stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="32" d="M80 160h352M80 256h352M80 352h352"/></svg>
-        <h2>Immersive experiences that deliver</h2>
+        <div class="div_header">
+            <h2>Immersive experiences that deliver</h2>
+        </div>
     </header>
     <div id="about">
-        <img src="assets/images/mobile/image-interactive.jpg" alt="interactive">
+        <img class="about_image" src="assets/images/mobile/image-interactive.jpg" alt="interactive">
         <h3>The leader in interactive VR</h3>
-        <p>Founded in 2011, Loopstudios has been producing world-class virtual
-           reality projects for some of the best companies around the globe. 
-           Our award-winning creations have transformed buisnesses through expériences
-           that bind to their brand.
-        </p>
+        <div class="about_paragraph">
+            <p>Founded in 2011, Loopstudios has been producing world-class virtual
+            reality projects for some of the best companies around the globe. 
+            Our award-winning creations have transformed buisnesses through expériences
+            that bind to their brand.
+            </p>
+        </div>
     </div>
     <div id="products">
         <h3>Our creations</h3>
-        <img src="assets/images/mobile/image-deep-earth.jpg" alt="deep eart">
-        <img src="assets/images/mobile/image-night-arcade.jpg" alt="night arcade">
-        <img src="assets/images/mobile/image-soccer-team.jpg" alt="soccer team VR">
-        <img src="assets/images/mobile/image-grid.jpg" alt="the grid">
-        <img src="assets/images/mobile/image-from-above.jpg" alt="from up above VR">
-        <img src="assets/images/mobile/image-pocket-borealis.jpg" alt="pocket borealis">
-        <img src="assets/images/mobile/image-curiosity.jpg" alt="the curiosity">
-        <img src="assets/images/mobile/image-fisheye.jpg" alt="make it fisheye">
-        <button>See all</button>
+        <div class="container_deep_eart">
+            <img class="product_deep_eart" src="assets/images/mobile/image-deep-earth.jpg" alt="deep eart">
+            <div class="text_deep_eart">Deep eart</div>
+        </div>
+        <div class="container_night_arcade">
+            <img class="product_night_arcade" src="assets/images/mobile/image-night-arcade.jpg" alt="night arcade">
+            <div class="text_night_arcade">Night arcade</div>
+        </div >
+        <div class="container_soccer_team">
+            <img class="product_soccer_team" src="assets/images/mobile/image-soccer-team.jpg" alt="soccer team VR">
+            <div class="text_soccer_team">Soccer team</div>
+        </div>
+        <div class="container_the_grid">
+            <img class="product_the_grid" src="assets/images/mobile/image-grid.jpg" alt="the grid">
+            <div class="text_the_grid">The grid</div>
+        </div>
+        <div class="container_from_up">
+            <img class="product_from_up" src="assets/images/mobile/image-from-above.jpg" alt="from up above VR">
+            <div class="text_from_up">From up above VR</div>
+        </div>
+        <div class="container_pocket_borealis">
+            <img class="product_pocket_borealis" src="assets/images/mobile/image-pocket-borealis.jpg" alt="pocket borealis">
+            <div class="text_pocket_borealis">Pocket borealis</div>
+        </div>
+        <div class="container_the_cursiosity">
+            <img class="product_the_cursiosity" src="assets/images/mobile/image-curiosity.jpg" alt="the curiosity">
+            <div class="text_the_cursiosity">The cursiosity</div>
+        </div>
+        <div class="container_make_fisheye">
+            <img class="product_make_fisheye" src="assets/images/mobile/image-fisheye.jpg" alt="make it fisheye">
+            <div class="text_make_fisheye">Make it fisheye</div>
+        </div>
+        <button class="product_button">See all</button>
     </div>
     <footer>
         <h1>loopstudios</h1>
-
+        <a href="#about">About</a>
+        <a href="#careers">Careers</a>
+        <a href=""></a>
         
 
     </footer>
